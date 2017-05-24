@@ -4,9 +4,9 @@
 <head>
     <meta charset='utf-8'>
     <title>React.js Lession</title>
-    <link rel="stylesheet" href="../bower_components/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="../bower_components/reveal.js/lib/css/zenburn.css">
-    <link rel="stylesheet" href="../bower_components/reveal.js/css/theme/black.css">
+    <link rel="stylesheet" href="./bower_components/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="./bower_components/reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="./bower_components/reveal.js/css/theme/black.css">
     <style type="text/css">
         .textLeft{
             text-align: left;
@@ -177,19 +177,19 @@
                 dependencies: [
                     // Interpret Markdown in <section> elements
                     {
-                        src: '../bower_components/reveal.js/plugin/markdown/marked.js',
+                        src: './bower_components/reveal.js/plugin/markdown/marked.js',
                         condition: function() {
                             return !!document.querySelector('[data-markdown]');
                         }
                     }, {
-                        src: '../bower_components/reveal.js/plugin/markdown/markdown.js',
+                        src: './bower_components/reveal.js/plugin/markdown/markdown.js',
                         condition: function() {
                             return !!document.querySelector('[data-markdown]');
                         }
                     },
                     // Syntax highlight for <code> elements
                     {
-                        src: '../bower_components/reveal.js/plugin/highlight/highlight.js',
+                        src: './bower_components/reveal.js/plugin/highlight/highlight.js',
                         async: true,
                         callback: function() {
                             hljs.initHighlightingOnLoad();
